@@ -1,0 +1,378 @@
+/*--------------------universal----------------------*/
+*{
+    box-sizing: border-box; padding: 0; margin:0; text-decoration: none; list-style: none;
+}
+body{
+    font-family: 'Avenir', sans-serif;
+    color:white;
+    background-color: #edecec;
+}
+
+/*---------------------------------NAV-----------------------*/
+nav{
+height: 3rem;
+background-color: black;
+display: flex;
+justify-content:space-between;
+align-items: center;
+}
+/*nav-icon*/
+nav .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:2rem;
+   }                   
+
+nav .icon i{
+    width: 0.8rem;
+    height: 0.85rem;
+    color: white;
+   
+}
+
+nav .icon p{
+    width: 12rem;
+    height: 1rem;
+    font-size: 0.8rem;
+     color: white;
+}
+/*ul*/
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   transform: translate(-0.1rem, 0rem);
+}
+    
+ul a{
+    width:5rem ;
+    height: 1rem;
+    font-size: 0.8rem;
+    color: white;
+    text-decoration: underline;
+    padding-right: 3rem;
+    cursor: pointer;
+
+
+}
+/*----------------------------panel---------------------------*/
+.panel{
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:black;
+}
+.panel .panel-1{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.panel .panel-c a{
+    text-decoration: underline;
+}
+
+.panel .panel-1 p{
+    width: 11.76rem;
+    height: 2.8rem;
+    font-size:2.5rem ;
+    padding: 0px 1.2rem 
+}
+input{
+     background-color: #edecec;
+    width:14rem ;
+    height:2.7rem ;
+    margin-left:2rem;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: none;
+    padding-left: 2rem;
+}
+.panel-1 .btn{
+    background-color: #751fff;
+    width:4.8rem ;
+    height:2.7rem ;
+    font-size: 1rem;
+    padding-right: 0.5rem;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+    
+}
+.panel-1 .btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.panel .panel-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+ 
+}
+.panel .panel-2 .panel-b{
+    margin: 0px 0.2rem;
+}
+.panel .panel-2 .panel-c{
+    margin: 0px 1.3rem;
+}
+
+.panel .panel-2 a{
+    color:black;
+}
+
+
+/*-------------------------------first---------------------*/
+.first{
+    display: flex;
+    justify-content:left ;
+    align-items: center;
+    height: 2.7rem;
+    background-color: #EDECEC;
+}
+.first a{
+    color: black;
+    font-size: 1rem;
+    padding: 0rem 1.2rem;
+    text-decoration: none;
+}
+/*---------------------------second------------------------------*/
+
+.second{
+    height: 100vh;
+    background: url(../images/bg.jpg)no-repeat center center/cover;
+ 
+}
+.second .red{
+    width: 7rem;
+    height: 1.5rem;
+    font-size: 1.1rem;
+    background-color: red;
+    margin-bottom: 3rem;
+}
+.second p:nth-child(2){
+    width: 30rem;
+    height: 13.12rem;
+    font-size: 3.8rem;
+    margin-bottom: 3rem;
+}
+.second p:nth-child(3){
+    width: 30rem;
+    height: 4.3rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+.second .btn{
+    width: 12.5rem;
+    height:3.12rem ;
+    font-size:1.1rem ;
+    cursor: pointer;
+    background-color: #751fff;
+    border-radius: 1.2rem;
+    border: none;
+}
+.second .box{
+    padding-top:5rem ;
+    padding-left: 15rem;
+}
+
+/*------------------------------------------tihrd-------------------------*/
+
+.third{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    
+}
+.third .box-1{
+    background: url(../images/red\ bg.webp)no-repeat center center/cover;
+    width:35rem ;
+    height:30rem ;
+    margin: 4rem 4rem 4rem 0rem;
+    
+}
+.third .box-2{
+    background: url(../images/blue\ bg.webp)no-repeat right center/cover;
+    width:35rem ;
+    height:30rem ;
+}
+.third .text-1 p:nth-child(1){
+    width: 7.8rem;
+    height:1.6rem ;
+    font-size:1.25rem ;
+    margin-bottom: 2rem;
+}
+.third .text-1 p:nth-child(2){
+    width: 15rem;
+    height:3.18rem ;
+    font-size:2.8rem ;
+    margin-bottom: 5rem;
+    
+}
+.third .text-1 p:nth-child(3){
+    width: 30rem;
+    height:1.43rem ;
+    font-size:1.25rem ;
+    margin-top: 9rem;
+}
+.third .text-1 .btn-1{
+    background-color: white;
+    width: 8.5rem;
+    height:2.5rem ;
+    font-size: 1.05rem;
+    color: black;
+    border-radius: 1.25rem;
+    border: none;
+    margin-top: 1.5rem;
+}
+.third .text-1 .btn-1:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    transition: all 0.5s ease-in;
+}
+.third .text-1 {
+    padding-top: 5rem;
+    padding-left: 9rem;
+}
+
+.third .text-1 .ad{
+position: relative;
+bottom: 3rem;
+
+}
+/*-------------------------fourth----------------------------*/
+
+.fourth{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 12rem;
+    width: 88%;
+    background-color: white;
+    color: black;
+    margin: auto;
+}
+
+.fourth .boxes{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.fourth .boxes i{
+    width: 2.5rem;
+    font-size: 2.5rem;
+}
+.fourth .boxes p{
+    width: 10rem;
+    height:3rem ;
+    font-size: 1.25rem;
+    margin-left: 1rem;
+}
+/*------------------------eight-------------------------*/
+.eight{
+    height: 100vh;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding-top: 10rem;
+    margin-top: 4rem;
+    
+}
+
+.eight p:nth-child(1){
+    width: 15rem;
+    height: 1.8rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+.eight .icon{
+    display: flex;
+    gap: 1.5rem;
+    font-size: 1.5rem;
+    margin-top: 4rem;
+    width:15rem ;
+    height:2rem;
+}
+.eight .copy{
+    width: 15rem;
+    height: 1.8rem;
+    font-size: 1rem;
+    font-weight: 200;
+    margin-bottom: 0.5rem;
+}
+/*----------------------panel-------------------------*/
+
+.panel{
+    
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 1rem;
+    background-color: white;
+    
+
+} 
+/*-------------------------payment------------------------*/
+.payment {
+    height: 8rem;
+    padding-top: 0.2rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.payment .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+/*---------------------footer-----------------*/
+footer{
+    height: 2rem;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(184, 175, 175);
+    font-size: 1rem;
+
+}
+.comment{
+    background-color: rgb(192, 67, 45);
+    border-radius: 50%;
+    position: fixed;
+    right: 0.85rem;
+    bottom: 0.85rem;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.comment i{
+    color: white;
+    font-size: 1.4rem;
+}
+ 
+
+
+
+/*-------------------------utility---------------------------*/
+.btn{
+    background-color:black;
+    width:4.8rem ;
+    height:2.8rm ;
+    font-size: 1rem;
+    color: white;
+}
